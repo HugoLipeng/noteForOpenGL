@@ -1,18 +1,19 @@
 # OpenGL学习脚印
 
-- [nanosuit load model demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/modelLoading/%E6%9C%89%E5%85%89%E7%85%A7%E5%8A%A0%E8%BD%BD%E7%9A%84%E6%A8%A1%E5%9E%8B.png)
-- [enviornment mapping demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/environmentMapping/reflection-sphere.png)
-- [reflection map demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/environmentMapping/reflectionMap-combine.png)
-- [skyBox demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/skyBox/skybox2.png)
-- [nanosuit instancing demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/instancing/441%E4%B8%AAnanosuit.png)
-- [planar reflection demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/stencilTesting/plannrRelection.png)
-- [gamma correction demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/gammaCorrection/%E7%BA%B9%E7%90%86%E5%92%8C%E7%9D%80%E8%89%B2%E5%99%A8%E7%BA%BF%E6%80%A7%E5%AF%B9%E6%AF%94%E6%95%88%E6%9E%9C.png)
-- [point shadow mapping demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/advancedLighting/pointShadow/%E7%82%B9%E5%85%89%E6%BA%90%E9%98%B4%E5%BD%B1%E6%95%88%E6%9E%9C2.png)
-- [normal mapping demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/advancedLighting/normalMapping/compare-model.png)
-- [Hello World Text Rendering Demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/textRendering/textEffect.png)
-- [frame rate counter Demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/textRendering/fps.png)
-- [Pixel Buffer Object pack and unpack demo](https://github.com/wangdingqiao/noteForOpenGL/blob/master/PBO/PBO-unpack/PBO-2.png)
-- [Video rendering with PBO using OpenCV](https://github.com/wangdingqiao/noteForOpenGL/blob/master/videoRendering/render-video.png)
+- [nanosuit load model demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/modelLoading/%E6%9C%89%E5%85%89%E7%85%A7%E5%8A%A0%E8%BD%BD%E7%9A%84%E6%A8%A1%E5%9E%8B.png)
+- [enviornment mapping demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/environmentMapping/reflection-sphere.png)
+- [reflection map demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/environmentMapping/reflectionMap-combine.png)
+- [skyBox demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/skyBox/skybox2.png)
+- [nanosuit instancing demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/instancing/441%E4%B8%AAnanosuit.png)
+- [planar reflection demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/stencilTesting/plannrRelection.png)
+- [gamma correction demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/gammaCorrection/%E7%BA%B9%E7%90%86%E5%92%8C%E7%9D%80%E8%89%B2%E5%99%A8%E7%BA%BF%E6%80%A7%E5%AF%B9%E6%AF%94%E6%95%88%E6%9E%9C.png)
+- [point shadow mapping demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/advancedLighting/pointShadow/%E7%82%B9%E5%85%89%E6%BA%90%E9%98%B4%E5%BD%B1%E6%95%88%E6%9E%9C2.png)
+- [normal mapping demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/advancedLighting/normalMapping/compare-model.png)
+- [Hello World Text Rendering Demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/textRendering/textEffect.png)
+- [frame rate counter Demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/textRendering/fps.png)
+- [Pixel Buffer Object pack and unpack demo](https://github.com/HugoLipeng/noteForOpenGL/blob/master/PBO/PBO-unpack/PBO-2.png)
+- [Video rendering with PBO using OpenCV](https://github.com/HugoLipeng/noteForOpenGL/blob/master/videoRendering/render-video.png)
+
 -------
 
 # 致谢
@@ -42,15 +43,15 @@
 - 保持自己对图形编程的兴趣，同时保持一定节奏学习，避免过快或者过慢两个极端。
 - 以初学者的身份记录下学习过程中的点滴经验，供初学者交流和学习。
 
-具体的讲解请见博客：http://blog.csdn.net/ziyuanxiazai123/article/category/2107037
+具体的讲解请见[博客](http://blog.csdn.net/ziyuanxiazai123/article/category/2107037)
 
-**对代码的建议、纠错，请在博客下方留言**。
+
 
 -------
 # 目前代码适用情况
 
 作为初学者，本代码主要以 windows + visual studio + C++ 作为开发环境，
-同时选用[GLFW + GLEW + SOIL + AssImp](https://github.com/wangdingqiao/noteForOpenGL/tree/master/libraries) 等作为OpenGL的第三方库文件。
+同时选用[GLFW + GLEW + SOIL + AssImp](https://github.com/HugoLipeng/noteForOpenGL/tree/master/libraries) 等作为OpenGL的第三方库文件。
 
 选用这些平台和语言的原因在于，作为初学者要尽量屏蔽语言相关、机器相关的细节，
 重点放在动手实践上，而不是把时间浪费在Linux下驱动程序安装, c++11新特性，python或者java的OpenGL语言绑定等无关细节上面。
